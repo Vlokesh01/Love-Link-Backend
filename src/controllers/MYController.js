@@ -1,5 +1,5 @@
 import User from "../models/UserModel.js";
-import  {MissYou } from "../models/MissYouModel.js";
+import  { MissYou } from "../models/MissYouModel.js";
 import dayjs from "dayjs";
 
 // POST /api/missyou
