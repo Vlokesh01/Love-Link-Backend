@@ -109,6 +109,7 @@ export const getMissYouStats = async (req, res) => {
     res.json({
       youClicked: { count: userCount, streak: userStreak },
       partnerClicked: { count: partnerCount, streak: partnerStreak },
+        partnerId: user.partnerId,
       timeline: timelineData.flatMap(r => r.timeline || []),
     });
   } catch (error) {
